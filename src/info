@@ -1,0 +1,308 @@
+{
+  "uuid": "8db91c9afcd9bf28302c160c6c363430",
+  "path": "Offline/moana-lf-robot",
+  "name": "moana-lf-robot",
+  "content": "Moana is a line following robot",
+  "created_at": "2024-06-18 21:32:29",
+  "updated_at": "2024-06-24 02:13:59",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6343a54fe9ea970e7b04b201e61213e2",
+      "title": "schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b41204392e8448d599e7e87ff60982a1": 1,
+        "5c703d98f2824de895fc5ea67bd97a40": 3,
+        "f545d9c3ddf34f0aab42185f59d87f3a": 2,
+        "ad604dfdf8e14495b8899cbfd5079328": 1,
+        "2590b46b34444477852f9c64d3ed007e": 1,
+        "71d294718bdf4cc0a93eb2e6656e7b3e": 2,
+        "514dddbe856146039fcd033ae29bc39f": 2,
+        "4d7d0503e54945ec9530971fd89d0647": 1,
+        "55b97a5b1ece40c69c33b18610c9819d": 6,
+        "b5d43055d1db459997a8a53f9d7ef00a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          2,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C1,C2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C254090",
+            "Manufacturer": "Dersonic(德尔创)",
+            "Manufacturer Part": "CC1H104ZC14D3F5O10MF",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC1H104ZC14D3F5O10MF",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "f545d9c3ddf34f0aab42185f59d87f3a"
+          }
+        ],
+        [
+          "IN5817",
+          1,
+          "IN5817 DO-41",
+          "D1",
+          {
+            "Supplier": "Element14",
+            "Manufacturer Part": "1N5817",
+            "Manufacturer": "STMicroelectronics",
+            "image": "//image.lceda.cn/szlcsc/C84026.jpg",
+            "Supplier Part": "C84026",
+            "Contributor": "hafiz_8030",
+            "spiceSymbolName": "IN5817 SCHOTTKY DIODE",
+            "puuid": "b9cd0ecd6fda443b95f1ba553648461c",
+            "uuid": "2590b46b34444477852f9c64d3ed007e"
+          }
+        ],
+        [
+          "210-91-02GB01",
+          3,
+          "HDR-TH_2P-P2.54-V-M-1",
+          "H1,H2,H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C390678",
+            "Manufacturer": "PINREX(频锐科技)",
+            "Manufacturer Part": "210-91-02GB01",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "210-91-02GB01",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "5c703d98f2824de895fc5ea67bd97a40"
+          }
+        ],
+        [
+          "GREEN",
+          1,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C86726",
+            "Manufacturer": "EVERLIGHT(亿光)",
+            "Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "204-10SUBC/C470/S400-A4",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "WHITE",
+          1,
+          "LED-TH_BD4.0-P2.54-FD",
+          "LED2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C86726",
+            "Manufacturer": "EVERLIGHT(亿光)",
+            "Manufacturer Part": "204-10SUBC/C470/S400-A4",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "204-10SUBC/C470/S400-A4",
+            "puuid": "f81d60139e1d495cb16947e44f36d764",
+            "uuid": "71d294718bdf4cc0a93eb2e6656e7b3e"
+          }
+        ],
+        [
+          "HEADER - 2.54MM 1X12",
+          1,
+          "12X2.54MM HEADER",
+          "P1",
+          {
+            "Supplier": "Mouser",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "2.54_1x12",
+            "Supplier Part": "C124413",
+            "Contributor": "sterno208",
+            "spiceSymbolName": "HEADER - 2.54MM 1X12",
+            "puuid": "21d5bf985de44bcc9b801104083d1baa",
+            "uuid": "ad604dfdf8e14495b8899cbfd5079328"
+          }
+        ],
+        [
+          "100",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C119263",
+            "Manufacturer": "Chian Chia Elec",
+            "Manufacturer Part": "-",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "Resistance": "1Ω",
+            "spiceSymbolName": "MF1/4W-1Ω±1% T52",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "220",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C119263",
+            "Manufacturer": "Chian Chia Elec",
+            "Manufacturer Part": "-",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "Resistance": "1Ω",
+            "spiceSymbolName": "MF1/4W-1Ω±1% T52",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "514dddbe856146039fcd033ae29bc39f"
+          }
+        ],
+        [
+          "TP_SMD_2.5mm",
+          6,
+          "TESTPOINT-SMD_2.5MM",
+          "TP1,TP2,TP3,TP4,TP5,TP6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900021701",
+            "Manufacturer": "null",
+            "Manufacturer Part": "15X5焊片",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "kiran_1984",
+            "spiceSymbolName": "TP_SMD_2.5mm",
+            "puuid": "096095a6ecee4b1a8664ec43909fde20",
+            "uuid": "55b97a5b1ece40c69c33b18610c9819d"
+          }
+        ],
+        [
+          "DRV8833",
+          1,
+          "DRV8833 MOTOR DRIVER",
+          "U1",
+          {
+            "timeStamp": "1453691553",
+            "sourceId": "YsmgyP7pj",
+            "spiceSymbolName": "DRV8833",
+            "Manufacturer Part": "",
+            "puuid": "db1b70342f114975b7c1fdd51a809e2e",
+            "uuid": "4d7d0503e54945ec9530971fd89d0647"
+          }
+        ],
+        [
+          "AMS1117-5V",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "Supplier": "",
+            "Supplier Part": "C2688239",
+            "Manufacturer": "WPMtek(维攀微)",
+            "Manufacturer Part": "AMS1117-5V",
+            "Contributor": "Sv En",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AMS1117-5V",
+            "puuid": "dabafe4696264d9bad4af2031a06d15b",
+            "uuid": "b41204392e8448d599e7e87ff60982a1"
+          }
+        ],
+        [
+          "RASPBERRY PI PICO",
+          1,
+          "RASPBERRY PI PICO/ RASPBERRY PI PICO W",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Laurent Gorlier",
+            "spiceSymbolName": "RASPBERRY PI PICO",
+            "puuid": "1683c8b979374acea7f5ebd913839542",
+            "uuid": "b5d43055d1db459997a8a53f9d7ef00a"
+          }
+        ]
+      ],
+      "updateTime": 1719182751,
+      "createTime": 1718735549,
+      "histories": [],
+      "created_at": "2024-06-18 21:32:29",
+      "updated_at": "2024-06-24 01:45:51"
+    },
+    {
+      "uuid": "3c3db05fb91c3010826fd625bcb9d8a1",
+      "puuid": "8db91c9afcd9bf28302c160c6c363430",
+      "title": "pcb",
+      "filename": "pcb.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e609923febba487d930e816587043b51": 2,
+        "b9cd0ecd6fda443b95f1ba553648461c": 1,
+        "7ae61b24ec5d431087f34ea7cfebbd9e": 3,
+        "f81d60139e1d495cb16947e44f36d764": 2,
+        "21d5bf985de44bcc9b801104083d1baa": 1,
+        "666264fd42b84465ad050a9517cab8cf": 2,
+        "096095a6ecee4b1a8664ec43909fde20": 6,
+        "db1b70342f114975b7c1fdd51a809e2e": 1,
+        "dabafe4696264d9bad4af2031a06d15b": 1,
+        "1683c8b979374acea7f5ebd913839542": 1
+      },
+      "BOM": [],
+      "updateTime": 1719184350,
+      "createTime": 1719141846,
+      "histories": [],
+      "created_at": "2024-06-23 14:24:06",
+      "updated_at": "2024-06-24 02:12:30"
+    },
+    {
+      "uuid": "e5a85f06b1ba261984d76cedf63fc077",
+      "puuid": "8db91c9afcd9bf28302c160c6c363430",
+      "title": "smooth-tracks",
+      "filename": "smooth-tracks.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e609923febba487d930e816587043b51": 2,
+        "b9cd0ecd6fda443b95f1ba553648461c": 1,
+        "7ae61b24ec5d431087f34ea7cfebbd9e": 3,
+        "f81d60139e1d495cb16947e44f36d764": 2,
+        "21d5bf985de44bcc9b801104083d1baa": 1,
+        "666264fd42b84465ad050a9517cab8cf": 2,
+        "096095a6ecee4b1a8664ec43909fde20": 6,
+        "db1b70342f114975b7c1fdd51a809e2e": 1,
+        "dabafe4696264d9bad4af2031a06d15b": 1,
+        "1683c8b979374acea7f5ebd913839542": 1
+      },
+      "BOM": [],
+      "updateTime": 1719184439,
+      "createTime": 1719184436,
+      "histories": [],
+      "created_at": "2024-06-24 02:13:56",
+      "updated_at": "2024-06-24 02:13:59"
+    }
+  ],
+  "sort": [],
+  "title": "moana-lf-robot",
+  "foldername": "moana-lf-robot",
+  "schfilename": "moana-lf-robot.json",
+  "schfilemtime": 1719182751212
+}
