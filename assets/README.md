@@ -1,6 +1,6 @@
 # Assets
 
-These folder contains images for the projects for example:
+This folder contains images for the projects, for example:
 
 ## Schematic
 
