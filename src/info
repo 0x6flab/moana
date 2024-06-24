@@ -4,7 +4,7 @@
   "name": "moana-lf-robot",
   "content": "Moana is a line following robot",
   "created_at": "2024-06-18 21:32:29",
-  "updated_at": "2024-06-24 02:13:59",
+  "updated_at": "2024-06-24 23:09:22",
   "stick": "",
   "documents": [
     {
@@ -24,7 +24,7 @@
         "514dddbe856146039fcd033ae29bc39f": 2,
         "4d7d0503e54945ec9530971fd89d0647": 1,
         "55b97a5b1ece40c69c33b18610c9819d": 6,
-        "b5d43055d1db459997a8a53f9d7ef00a": 1
+        "39a2a365fe0d4725b534344331c92384": 1
       },
       "BOM": [
         [
@@ -220,9 +220,9 @@
           }
         ],
         [
-          "RASPBERRY PI PICO",
+          "ESP32-S2-mini",
           1,
-          "RASPBERRY PI PICO/ RASPBERRY PI PICO W",
+          "ESP32-S2-MINI",
           "U3",
           {
             "Manufacturer": "",
@@ -230,18 +230,18 @@
             "Supplier Part": "",
             "Supplier": "",
             "link": "",
-            "Contributor": "Laurent Gorlier",
-            "spiceSymbolName": "RASPBERRY PI PICO",
-            "puuid": "1683c8b979374acea7f5ebd913839542",
-            "uuid": "b5d43055d1db459997a8a53f9d7ef00a"
+            "Contributor": "danibanon",
+            "spiceSymbolName": "ESP32-S2-mini",
+            "puuid": "e022f68ab83b4b3fa81663d56e3c732a",
+            "uuid": "39a2a365fe0d4725b534344331c92384"
           }
         ]
       ],
-      "updateTime": 1719182751,
+      "updateTime": 1719257456,
       "createTime": 1718735549,
       "histories": [],
       "created_at": "2024-06-18 21:32:29",
-      "updated_at": "2024-06-24 01:45:51"
+      "updated_at": "2024-06-24 22:30:56"
     },
     {
       "uuid": "3c3db05fb91c3010826fd625bcb9d8a1",
@@ -253,6 +253,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e022f68ab83b4b3fa81663d56e3c732a": 1,
         "e609923febba487d930e816587043b51": 2,
         "b9cd0ecd6fda443b95f1ba553648461c": 1,
         "7ae61b24ec5d431087f34ea7cfebbd9e": 3,
@@ -261,18 +262,17 @@
         "666264fd42b84465ad050a9517cab8cf": 2,
         "096095a6ecee4b1a8664ec43909fde20": 6,
         "db1b70342f114975b7c1fdd51a809e2e": 1,
-        "dabafe4696264d9bad4af2031a06d15b": 1,
-        "1683c8b979374acea7f5ebd913839542": 1
+        "dabafe4696264d9bad4af2031a06d15b": 1
       },
       "BOM": [],
-      "updateTime": 1719184350,
+      "updateTime": 1719259736,
       "createTime": 1719141846,
       "histories": [],
       "created_at": "2024-06-23 14:24:06",
-      "updated_at": "2024-06-24 02:12:30"
+      "updated_at": "2024-06-24 23:08:56"
     },
     {
-      "uuid": "e5a85f06b1ba261984d76cedf63fc077",
+      "uuid": "e52a10e32fbadbce2343857383a34fcb",
       "puuid": "8db91c9afcd9bf28302c160c6c363430",
       "title": "smooth-tracks",
       "filename": "smooth-tracks.json",
@@ -281,6 +281,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e022f68ab83b4b3fa81663d56e3c732a": 1,
         "e609923febba487d930e816587043b51": 2,
         "b9cd0ecd6fda443b95f1ba553648461c": 1,
         "7ae61b24ec5d431087f34ea7cfebbd9e": 3,
@@ -289,20 +290,19 @@
         "666264fd42b84465ad050a9517cab8cf": 2,
         "096095a6ecee4b1a8664ec43909fde20": 6,
         "db1b70342f114975b7c1fdd51a809e2e": 1,
-        "dabafe4696264d9bad4af2031a06d15b": 1,
-        "1683c8b979374acea7f5ebd913839542": 1
+        "dabafe4696264d9bad4af2031a06d15b": 1
       },
       "BOM": [],
-      "updateTime": 1719184439,
-      "createTime": 1719184436,
+      "updateTime": 1719259762,
+      "createTime": 1719259757,
       "histories": [],
-      "created_at": "2024-06-24 02:13:56",
-      "updated_at": "2024-06-24 02:13:59"
+      "created_at": "2024-06-24 23:09:17",
+      "updated_at": "2024-06-24 23:09:22"
     }
   ],
   "sort": [],
   "title": "moana-lf-robot",
   "foldername": "moana-lf-robot",
   "schfilename": "moana-lf-robot.json",
-  "schfilemtime": 1719182751212
+  "schfilemtime": 1719257456610
 }
