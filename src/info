@@ -4,7 +4,7 @@
   "name": "moana-lf-robot",
   "content": "Moana is a line following robot",
   "created_at": "2024-06-18 21:32:29",
-  "updated_at": "2024-06-24 23:09:22",
+  "updated_at": "2024-06-26 20:31:56",
   "stick": "",
   "documents": [
     {
@@ -265,17 +265,17 @@
         "dabafe4696264d9bad4af2031a06d15b": 1
       },
       "BOM": [],
-      "updateTime": 1719259736,
+      "updateTime": 1719423031,
       "createTime": 1719141846,
       "histories": [],
       "created_at": "2024-06-23 14:24:06",
-      "updated_at": "2024-06-24 23:08:56"
+      "updated_at": "2024-06-26 20:30:31"
     },
     {
-      "uuid": "e52a10e32fbadbce2343857383a34fcb",
+      "uuid": "f40db0f6ef3bca919fa01b7fb619c32e",
       "puuid": "8db91c9afcd9bf28302c160c6c363430",
-      "title": "smooth-tracks",
-      "filename": "smooth-tracks.json",
+      "title": "smooth",
+      "filename": "smooth.json",
       "description": "",
       "docType": "3",
       "master": "",
@@ -293,11 +293,11 @@
         "dabafe4696264d9bad4af2031a06d15b": 1
       },
       "BOM": [],
-      "updateTime": 1719259762,
-      "createTime": 1719259757,
+      "updateTime": 1719423116,
+      "createTime": 1719423112,
       "histories": [],
-      "created_at": "2024-06-24 23:09:17",
-      "updated_at": "2024-06-24 23:09:22"
+      "created_at": "2024-06-26 20:31:52",
+      "updated_at": "2024-06-26 20:31:56"
     }
   ],
   "sort": [],
